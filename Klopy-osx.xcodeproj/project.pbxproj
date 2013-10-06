@@ -18,6 +18,10 @@
 		3236F8DC1801F9E100A585CD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3236F8BB1801F9E100A585CD /* Cocoa.framework */; };
 		3236F8E41801F9E100A585CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3236F8E21801F9E100A585CD /* InfoPlist.strings */; };
 		3236F8E61801F9E100A585CD /* Klopy_osxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236F8E51801F9E100A585CD /* Klopy_osxTests.m */; };
+		3236F8F71801FAFF00A585CD /* KLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236F8F01801FAFF00A585CD /* KLModel.m */; };
+		3236F8F81801FAFF00A585CD /* KLClipping.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236F8F21801FAFF00A585CD /* KLClipping.m */; };
+		3236F8F91801FAFF00A585CD /* KLAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236F8F41801FAFF00A585CD /* KLAPI.m */; };
+		3236F8FA1801FAFF00A585CD /* KLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236F8F61801FAFF00A585CD /* KLViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,14 @@
 		3236F8E11801F9E100A585CD /* Klopy-osxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Klopy-osxTests-Info.plist"; sourceTree = "<group>"; };
 		3236F8E31801F9E100A585CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3236F8E51801F9E100A585CD /* Klopy_osxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Klopy_osxTests.m; sourceTree = "<group>"; };
+		3236F8EF1801FAFF00A585CD /* KLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLModel.h; sourceTree = "<group>"; };
+		3236F8F01801FAFF00A585CD /* KLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLModel.m; sourceTree = "<group>"; };
+		3236F8F11801FAFF00A585CD /* KLClipping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLClipping.h; sourceTree = "<group>"; };
+		3236F8F21801FAFF00A585CD /* KLClipping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLClipping.m; sourceTree = "<group>"; };
+		3236F8F31801FAFF00A585CD /* KLAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLAPI.h; sourceTree = "<group>"; };
+		3236F8F41801FAFF00A585CD /* KLAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLAPI.m; sourceTree = "<group>"; };
+		3236F8F51801FAFF00A585CD /* KLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLViewController.h; sourceTree = "<group>"; };
+		3236F8F61801FAFF00A585CD /* KLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +131,14 @@
 				3236F8CE1801F9E100A585CD /* KLAppDelegate.m */,
 				3236F8D01801F9E100A585CD /* MainMenu.xib */,
 				3236F8D31801F9E100A585CD /* Images.xcassets */,
+				3236F8EF1801FAFF00A585CD /* KLModel.h */,
+				3236F8F01801FAFF00A585CD /* KLModel.m */,
+				3236F8F11801FAFF00A585CD /* KLClipping.h */,
+				3236F8F21801FAFF00A585CD /* KLClipping.m */,
+				3236F8F31801FAFF00A585CD /* KLAPI.h */,
+				3236F8F41801FAFF00A585CD /* KLAPI.m */,
+				3236F8F51801FAFF00A585CD /* KLViewController.h */,
+				3236F8F61801FAFF00A585CD /* KLViewController.m */,
 				3236F8C21801F9E100A585CD /* Supporting Files */,
 			);
 			path = "Klopy-osx";
@@ -253,6 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3236F8F91801FAFF00A585CD /* KLAPI.m in Sources */,
+				3236F8F81801FAFF00A585CD /* KLClipping.m in Sources */,
+				3236F8F71801FAFF00A585CD /* KLModel.m in Sources */,
+				3236F8FA1801FAFF00A585CD /* KLViewController.m in Sources */,
 				3236F8C81801F9E100A585CD /* main.m in Sources */,
 				3236F8CF1801F9E100A585CD /* KLAppDelegate.m in Sources */,
 			);
@@ -388,6 +412,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Klopy-osx/Klopy-osx-Prefix.pch";
 				INFOPLIST_FILE = "Klopy-osx/Klopy-osx-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -401,6 +426,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Klopy-osx/Klopy-osx-Prefix.pch";
 				INFOPLIST_FILE = "Klopy-osx/Klopy-osx-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
