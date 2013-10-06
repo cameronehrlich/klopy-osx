@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3236F8BC1801F9E100A585CD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3236F8BB1801F9E100A585CD /* Cocoa.framework */; };
+		3236F8C61801F9E100A585CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3236F8C41801F9E100A585CD /* InfoPlist.strings */; };
+		3236F8C81801F9E100A585CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236F8C71801F9E100A585CD /* main.m */; };
+		3236F8CC1801F9E100A585CD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3236F8CA1801F9E100A585CD /* Credits.rtf */; };
+		3236F8CF1801F9E100A585CD /* KLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236F8CE1801F9E100A585CD /* KLAppDelegate.m */; };
+		3236F8D21801F9E100A585CD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3236F8D01801F9E100A585CD /* MainMenu.xib */; };
+		3236F8D41801F9E100A585CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3236F8D31801F9E100A585CD /* Images.xcassets */; };
+		3236F8DB1801F9E100A585CD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3236F8DA1801F9E100A585CD /* XCTest.framework */; };
+		3236F8DC1801F9E100A585CD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3236F8BB1801F9E100A585CD /* Cocoa.framework */; };
+		3236F8E41801F9E100A585CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3236F8E21801F9E100A585CD /* InfoPlist.strings */; };
+		3236F8E61801F9E100A585CD /* Klopy_osxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236F8E51801F9E100A585CD /* Klopy_osxTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3236F8DD1801F9E100A585CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3236F8B01801F9E100A585CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3236F8B71801F9E100A585CD;
+			remoteInfo = "Klopy-osx";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3236F8B81801F9E100A585CD /* Klopy-osx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Klopy-osx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3236F8BB1801F9E100A585CD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3236F8BE1801F9E100A585CD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3236F8BF1801F9E100A585CD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3236F8C01801F9E100A585CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3236F8C31801F9E100A585CD /* Klopy-osx-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Klopy-osx-Info.plist"; sourceTree = "<group>"; };
+		3236F8C51801F9E100A585CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3236F8C71801F9E100A585CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3236F8C91801F9E100A585CD /* Klopy-osx-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Klopy-osx-Prefix.pch"; sourceTree = "<group>"; };
+		3236F8CB1801F9E100A585CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3236F8CD1801F9E100A585CD /* KLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLAppDelegate.h; sourceTree = "<group>"; };
+		3236F8CE1801F9E100A585CD /* KLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLAppDelegate.m; sourceTree = "<group>"; };
+		3236F8D11801F9E100A585CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3236F8D31801F9E100A585CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3236F8D91801F9E100A585CD /* Klopy-osxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Klopy-osxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3236F8DA1801F9E100A585CD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3236F8E11801F9E100A585CD /* Klopy-osxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Klopy-osxTests-Info.plist"; sourceTree = "<group>"; };
+		3236F8E31801F9E100A585CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3236F8E51801F9E100A585CD /* Klopy_osxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Klopy_osxTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3236F8B51801F9E100A585CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3236F8BC1801F9E100A585CD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236F8D61801F9E100A585CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3236F8DC1801F9E100A585CD /* Cocoa.framework in Frameworks */,
+				3236F8DB1801F9E100A585CD /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3236F8AF1801F9E100A585CD = {
+			isa = PBXGroup;
+			children = (
+				3236F8C11801F9E100A585CD /* Klopy-osx */,
+				3236F8DF1801F9E100A585CD /* Klopy-osxTests */,
+				3236F8BA1801F9E100A585CD /* Frameworks */,
+				3236F8B91801F9E100A585CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3236F8B91801F9E100A585CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3236F8B81801F9E100A585CD /* Klopy-osx.app */,
+				3236F8D91801F9E100A585CD /* Klopy-osxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3236F8BA1801F9E100A585CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3236F8BB1801F9E100A585CD /* Cocoa.framework */,
+				3236F8DA1801F9E100A585CD /* XCTest.framework */,
+				3236F8BD1801F9E100A585CD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3236F8BD1801F9E100A585CD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3236F8BE1801F9E100A585CD /* AppKit.framework */,
+				3236F8BF1801F9E100A585CD /* CoreData.framework */,
+				3236F8C01801F9E100A585CD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3236F8C11801F9E100A585CD /* Klopy-osx */ = {
+			isa = PBXGroup;
+			children = (
+				3236F8CD1801F9E100A585CD /* KLAppDelegate.h */,
+				3236F8CE1801F9E100A585CD /* KLAppDelegate.m */,
+				3236F8D01801F9E100A585CD /* MainMenu.xib */,
+				3236F8D31801F9E100A585CD /* Images.xcassets */,
+				3236F8C21801F9E100A585CD /* Supporting Files */,
+			);
+			path = "Klopy-osx";
+			sourceTree = "<group>";
+		};
+		3236F8C21801F9E100A585CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3236F8C31801F9E100A585CD /* Klopy-osx-Info.plist */,
+				3236F8C41801F9E100A585CD /* InfoPlist.strings */,
+				3236F8C71801F9E100A585CD /* main.m */,
+				3236F8C91801F9E100A585CD /* Klopy-osx-Prefix.pch */,
+				3236F8CA1801F9E100A585CD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3236F8DF1801F9E100A585CD /* Klopy-osxTests */ = {
+			isa = PBXGroup;
+			children = (
+				3236F8E51801F9E100A585CD /* Klopy_osxTests.m */,
+				3236F8E01801F9E100A585CD /* Supporting Files */,
+			);
+			path = "Klopy-osxTests";
+			sourceTree = "<group>";
+		};
+		3236F8E01801F9E100A585CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3236F8E11801F9E100A585CD /* Klopy-osxTests-Info.plist */,
+				3236F8E21801F9E100A585CD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3236F8B71801F9E100A585CD /* Klopy-osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3236F8E91801F9E100A585CD /* Build configuration list for PBXNativeTarget "Klopy-osx" */;
+			buildPhases = (
+				3236F8B41801F9E100A585CD /* Sources */,
+				3236F8B51801F9E100A585CD /* Frameworks */,
+				3236F8B61801F9E100A585CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Klopy-osx";
+			productName = "Klopy-osx";
+			productReference = 3236F8B81801F9E100A585CD /* Klopy-osx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3236F8D81801F9E100A585CD /* Klopy-osxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3236F8EC1801F9E100A585CD /* Build configuration list for PBXNativeTarget "Klopy-osxTests" */;
+			buildPhases = (
+				3236F8D51801F9E100A585CD /* Sources */,
+				3236F8D61801F9E100A585CD /* Frameworks */,
+				3236F8D71801F9E100A585CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3236F8DE1801F9E100A585CD /* PBXTargetDependency */,
+			);
+			name = "Klopy-osxTests";
+			productName = "Klopy-osxTests";
+			productReference = 3236F8D91801F9E100A585CD /* Klopy-osxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3236F8B01801F9E100A585CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Cameron Ehrlich";
+				TargetAttributes = {
+					3236F8D81801F9E100A585CD = {
+						TestTargetID = 3236F8B71801F9E100A585CD;
+					};
+				};
+			};
+			buildConfigurationList = 3236F8B31801F9E100A585CD /* Build configuration list for PBXProject "Klopy-osx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3236F8AF1801F9E100A585CD;
+			productRefGroup = 3236F8B91801F9E100A585CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3236F8B71801F9E100A585CD /* Klopy-osx */,
+				3236F8D81801F9E100A585CD /* Klopy-osxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3236F8B61801F9E100A585CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3236F8C61801F9E100A585CD /* InfoPlist.strings in Resources */,
+				3236F8D41801F9E100A585CD /* Images.xcassets in Resources */,
+				3236F8CC1801F9E100A585CD /* Credits.rtf in Resources */,
+				3236F8D21801F9E100A585CD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236F8D71801F9E100A585CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3236F8E41801F9E100A585CD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3236F8B41801F9E100A585CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3236F8C81801F9E100A585CD /* main.m in Sources */,
+				3236F8CF1801F9E100A585CD /* KLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236F8D51801F9E100A585CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3236F8E61801F9E100A585CD /* Klopy_osxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3236F8DE1801F9E100A585CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3236F8B71801F9E100A585CD /* Klopy-osx */;
+			targetProxy = 3236F8DD1801F9E100A585CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3236F8C41801F9E100A585CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3236F8C51801F9E100A585CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3236F8CA1801F9E100A585CD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3236F8CB1801F9E100A585CD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3236F8D01801F9E100A585CD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3236F8D11801F9E100A585CD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3236F8E21801F9E100A585CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3236F8E31801F9E100A585CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3236F8E71801F9E100A585CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3236F8E81801F9E100A585CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3236F8EA1801F9E100A585CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Klopy-osx/Klopy-osx-Prefix.pch";
+				INFOPLIST_FILE = "Klopy-osx/Klopy-osx-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3236F8EB1801F9E100A585CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Klopy-osx/Klopy-osx-Prefix.pch";
+				INFOPLIST_FILE = "Klopy-osx/Klopy-osx-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3236F8ED1801F9E100A585CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Klopy-osx.app/Contents/MacOS/Klopy-osx";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Klopy-osx/Klopy-osx-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Klopy-osxTests/Klopy-osxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3236F8EE1801F9E100A585CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Klopy-osx.app/Contents/MacOS/Klopy-osx";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Klopy-osx/Klopy-osx-Prefix.pch";
+				INFOPLIST_FILE = "Klopy-osxTests/Klopy-osxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3236F8B31801F9E100A585CD /* Build configuration list for PBXProject "Klopy-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3236F8E71801F9E100A585CD /* Debug */,
+				3236F8E81801F9E100A585CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3236F8E91801F9E100A585CD /* Build configuration list for PBXNativeTarget "Klopy-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3236F8EA1801F9E100A585CD /* Debug */,
+				3236F8EB1801F9E100A585CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3236F8EC1801F9E100A585CD /* Build configuration list for PBXNativeTarget "Klopy-osxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3236F8ED1801F9E100A585CD /* Debug */,
+				3236F8EE1801F9E100A585CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3236F8B01801F9E100A585CD /* Project object */;
+}
